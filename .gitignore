@@ -1,0 +1,25 @@
+
+*.rsuser
+*.suo
+*.user
+
+.vscode/*
+
+.vs/
+bin/
+obj/
+
+.env
+.env.local
+.env.*.local
+
+# Document Storage
+DocumentStorage/
+*.pdf
+*.docx
+*.doc
+*.txt
+
+# Logs
+logs/
+*.log
