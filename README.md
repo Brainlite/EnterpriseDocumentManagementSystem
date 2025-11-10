@@ -285,10 +285,77 @@ npm run build
 VITE_API_URL=https://your-production-api.com
 ```
 
+## Testing
+
+### Test Coverage Summary
+
+| Component | Tests | Coverage |
+|-----------|-------|----------|
+| **API (.NET)** | 47 tests | ✅ All passing |
+| **UI (React)** | 26 tests | 81% coverage |
+
+### API Tests
+
+Run backend unit tests:
+```bash
+cd EnterpriseDocumentManagementSystem.Api.Tests
+dotnet test
+```
+
+Run with coverage:
+```bash
+dotnet test --collect:"XPlat Code Coverage"
+```
+
+**Test Results:**
+- ✅ 47 tests passing
+- DocumentAuthorizationServiceTests (14 tests)
+- LocalFileStorageServiceTests (24 tests)
+- MockAuthServiceTests (7 tests)
+- AuthControllerTests (2 tests)
+
+**[API Test Documentation](EnterpriseDocumentManagementSystem.Api.Tests/README.md)**
+
+### UI Tests
+
+Run frontend unit tests:
+```bash
+cd ui
+npm test
+```
+
+Run with UI:
+```bash
+npm run test:ui
+```
+
+Run with coverage:
+```bash
+npm run test:coverage
+```
+
+**Test Results:**
+- ✅ 26 tests passing
+- **Overall Coverage: 81.03%**
+  - Statements: 81.03%
+  - Branches: 80.95%
+  - Functions: 90%
+  - Lines: 81.03%
+
+**Test Files:**
+- AccessTypeSelect component (6 tests) - 100% coverage
+- ProtectedRoute component (3 tests) - 100% coverage
+- authService (5 tests) - 100% coverage
+- documentService (12 tests) - 71.79% coverage
+
+**[UI Test Documentation](ui/README.tests.md)**
+
 ## Documentation
 
 - **[API Documentation](EnterpriseDocumentManagementSystem.Api/README.md)** - Complete backend API documentation
 - **[UI Documentation](ui/README.md)** - Complete frontend documentation
+- **[API Tests](EnterpriseDocumentManagementSystem.Api.Tests/README.md)** - Backend testing guide
+- **[UI Tests](ui/README.tests.md)** - Frontend testing guide
 - **[Swagger UI](https://localhost:7052/swagger)** - Interactive API documentation (when running)
 
 ## Troubleshooting

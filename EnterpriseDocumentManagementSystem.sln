@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseDocumentManagementSystem.Api", "EnterpriseDocumentManagementSystem.Api\EnterpriseDocumentManagementSystem.Api.csproj", "{8F744835-9000-4BE9-B6A3-3F9202B1750B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseDocumentManagementSystem.Api.Tests", "EnterpriseDocumentManagementSystem.Api.Tests\EnterpriseDocumentManagementSystem.Api.Tests.csproj", "{6F40FA1F-3884-4EF9-B9C5-716F8241226A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8F744835-9000-4BE9-B6A3-3F9202B1750B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F744835-9000-4BE9-B6A3-3F9202B1750B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F744835-9000-4BE9-B6A3-3F9202B1750B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F40FA1F-3884-4EF9-B9C5-716F8241226A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F40FA1F-3884-4EF9-B9C5-716F8241226A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F40FA1F-3884-4EF9-B9C5-716F8241226A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F40FA1F-3884-4EF9-B9C5-716F8241226A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
